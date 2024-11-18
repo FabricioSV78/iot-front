@@ -1,0 +1,96 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #d0e2ff;
+  margin: 0;
+  padding: 0;
+}
+
+/* Encabezado principal */
+h1 {
+  margin-top: 20px;
+  font-size: 2.5rem;
+  text-align: center; /* Centramos solo el texto */
+  color: #333;
+}
+
+h4 {
+  margin-top: 10px;
+  text-align: center; /* Centramos solo el texto */
+  color: #333;
+}
+
+/* Navbar (sin centrado) */
+.navbar {
+  margin-bottom: 20px; /* Separación entre el navbar y el contenido */
+}
+
+/* Estilos del contenedor de la casa */
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0;
+  padding: 20px;
+  max-width: 900px;
+  margin: 20px auto; /* Centra el contenedor horizontalmente */
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 2px solid black;
+}
+
+/* Estilos de cada habitación */
+.room {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #e0e0e0;
+  border: 1px solid rgb(255, 255, 255); /* Borde entre compartimientos */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Botón con su color normal */
+.toggle-btn {
+  padding: 12px 20px;
+  font-size: 1rem;
+  color: #000000; /* Texto blanco */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: filter 0.3s ease; /* Transición para suavidad */
+}
+
+/* Colores iniciales para cada botón */
+.btn-bano {
+  background-color: #4CAF50; /* Verde */
+}
+
+.btn-dormitorio1 {
+  background-color: #FF5722; /* Naranja */
+}
+
+.btn-dormitorio2 {
+  background-color: #2196F3; /* Azul */
+}
+
+.btn-sala {
+  background-color: #FFC107; /* Amarillo */
+}
+
+.btn-estudio {
+  background-color: #9C27B0; /* Morado */
+}
+
+.btn-cocina {
+  background-color: #E91E63; /* Rosa */
+}
+
+/* Botón en estado activo (más brillante) */
+.toggle-btn.button-active {
+  filter: brightness(1.5); /* Incrementa el brillo un 50% */
+}
+
+/* Efecto hover para todos los botones */
+.toggle-btn:hover {
+  opacity: 0.9; /* Sutil efecto de opacidad al pasar el ratón */
+}

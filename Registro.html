@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto IOT</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/registro.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="./Index.html">Proyecto IOT</a>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="./Index.html">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="./Camara.html">Cámara</a></li>
+        <li class="nav-item"><a class="nav-link active" href="./Registro.html">Registro</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <section id="activity-log-section" class="container">
+        <h2>Historial de Actividades</h2>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Descripción</th>
+                    <th>Fecha y Hora</th>
+                </tr>
+            </thead>
+            <tbody id="activity-log">
+                <!-- Las actividades se rellenan aquí dinámicamente -->
+            </tbody>
+        </table>
+    </section>
+  </main>
+
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/registro.js"></script> <!-- Archivo JS para manejar el historial -->
+</body>
+</html>
+
