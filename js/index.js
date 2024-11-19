@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    const API_URL = "http://prodent.sytes.net/api";
+    const API_URL = "https://prodent.sytes.net/api";
     const ALARM_ON_TEXT = "Apagar Sensor";
     const ALARM_OFF_TEXT = "Activar Sensor";
 

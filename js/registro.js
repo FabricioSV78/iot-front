@@ -1,7 +1,7 @@
 $(document).ready(function () {
     // Obtener y mostrar el historial de actividades
     function fetchActivities() {
-        $.get("http://prodent.sytes.net/api/activities", function (data) {
+        $.get("https://prodent.sytes.net/api/activities", function (data) {
             const activityLog = $("#activity-log");
             activityLog.empty(); // Limpiar la tabla antes de rellenarla
 
